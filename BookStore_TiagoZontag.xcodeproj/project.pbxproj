@@ -3,30 +3,42 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		690BB57F25FCF8B00025265A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BB57E25FCF8B00025265A /* AppDelegate.swift */; };
 		690BB58125FCF8B00025265A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BB58025FCF8B00025265A /* SceneDelegate.swift */; };
-		690BB58325FCF8B00025265A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BB58225FCF8B00025265A /* ViewController.swift */; };
+		690BB58325FCF8B00025265A /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BB58225FCF8B00025265A /* BooksViewController.swift */; };
 		690BB58625FCF8B00025265A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690BB58425FCF8B00025265A /* Main.storyboard */; };
 		690BB58925FCF8B00025265A /* BookStore_TiagoZontag.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 690BB58725FCF8B00025265A /* BookStore_TiagoZontag.xcdatamodeld */; };
 		690BB58B25FCF8B40025265A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 690BB58A25FCF8B40025265A /* Assets.xcassets */; };
 		690BB58E25FCF8B40025265A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690BB58C25FCF8B40025265A /* LaunchScreen.storyboard */; };
 		690BB59925FCF8B50025265A /* BookStore_TiagoZontagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BB59825FCF8B50025265A /* BookStore_TiagoZontagTests.swift */; };
-		690BB5A425FCF8B50025265A /* BookStore_TiagoZontagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BB5A325FCF8B50025265A /* BookStore_TiagoZontagUITests.swift */; };
+		690BB5C425FD02210025265A /* BooksAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BB5C325FD02210025265A /* BooksAPI.swift */; };
+		690BB5C925FD046D0025265A /* TargetRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BB5C825FD046D0025265A /* TargetRequestable.swift */; };
+		690BB5CE25FD07890025265A /* BooksNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BB5CD25FD07890025265A /* BooksNetworkService.swift */; };
+		690BB5D425FD08EF0025265A /* PagedResultResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BB5D325FD08EF0025265A /* PagedResultResponse.swift */; };
+		690BB5DF25FD2A760025265A /* VolumeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BB5DE25FD2A760025265A /* VolumeResponse.swift */; };
+		690BB5E425FD2B830025265A /* BooksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BB5E325FD2B830025265A /* BooksViewModel.swift */; };
+		690BB5EA25FD2C320025265A /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BB5E925FD2C320025265A /* Book.swift */; };
+		690BB5F225FD2C940025265A /* BooksSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BB5F125FD2C940025265A /* BooksSearchManager.swift */; };
+		690BB5FB25FD33FC0025265A /* ClosureTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BB5FA25FD33FC0025265A /* ClosureTypes.swift */; };
+		690EBA0F25FD455700618154 /* BookCollectionCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690BB60425FD43B40025265A /* BookCollectionCellView.swift */; };
+		690EBA1725FD461A00618154 /* BookCollectionCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690EBA1625FD461A00618154 /* BookCollectionCellViewModel.swift */; };
+		690EBA1D25FD4C1000618154 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 690EBA1C25FD4C1000618154 /* Kingfisher */; };
+		690EBA2225FD4F0300618154 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690EBA2125FD4F0300618154 /* MainNavigationController.swift */; };
+		690EBA2A25FD508300618154 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690EBA2925FD508300618154 /* Router.swift */; };
+		690EBA3B25FD872600618154 /* BookDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690EBA3A25FD872600618154 /* BookDatabase.swift */; };
+		690EBA4625FE43A100618154 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690EBA4525FE43A100618154 /* PersistenceManager.swift */; };
+		690EBA4B25FE46DD00618154 /* Mappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690EBA4A25FE46DD00618154 /* Mappers.swift */; };
+		690EBA5025FE59CA00618154 /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690EBA4F25FE59CA00618154 /* BookDetailViewController.swift */; };
+		695731D625FE5E98002273E9 /* BookDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695731D525FE5E98002273E9 /* BookDetailViewModel.swift */; };
+		695731DB25FE99AE002273E9 /* BooksFavoriteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695731DA25FE99AE002273E9 /* BooksFavoriteManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		690BB59525FCF8B50025265A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 690BB57325FCF8B00025265A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 690BB57A25FCF8B00025265A;
-			remoteInfo = BookStore_TiagoZontag;
-		};
-		690BB5A025FCF8B50025265A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 690BB57325FCF8B00025265A /* Project object */;
 			proxyType = 1;
@@ -39,7 +51,7 @@
 		690BB57B25FCF8B00025265A /* BookStore_TiagoZontag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookStore_TiagoZontag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		690BB57E25FCF8B00025265A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		690BB58025FCF8B00025265A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		690BB58225FCF8B00025265A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		690BB58225FCF8B00025265A /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
 		690BB58525FCF8B00025265A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		690BB58825FCF8B00025265A /* BookStore_TiagoZontag.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookStore_TiagoZontag.xcdatamodel; sourceTree = "<group>"; };
 		690BB58A25FCF8B40025265A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -48,9 +60,25 @@
 		690BB59425FCF8B50025265A /* BookStore_TiagoZontagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookStore_TiagoZontagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		690BB59825FCF8B50025265A /* BookStore_TiagoZontagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStore_TiagoZontagTests.swift; sourceTree = "<group>"; };
 		690BB59A25FCF8B50025265A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		690BB59F25FCF8B50025265A /* BookStore_TiagoZontagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookStore_TiagoZontagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		690BB5A325FCF8B50025265A /* BookStore_TiagoZontagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStore_TiagoZontagUITests.swift; sourceTree = "<group>"; };
-		690BB5A525FCF8B50025265A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		690BB5C325FD02210025265A /* BooksAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksAPI.swift; sourceTree = "<group>"; };
+		690BB5C825FD046D0025265A /* TargetRequestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetRequestable.swift; sourceTree = "<group>"; };
+		690BB5CD25FD07890025265A /* BooksNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksNetworkService.swift; sourceTree = "<group>"; };
+		690BB5D325FD08EF0025265A /* PagedResultResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagedResultResponse.swift; sourceTree = "<group>"; };
+		690BB5DE25FD2A760025265A /* VolumeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeResponse.swift; sourceTree = "<group>"; };
+		690BB5E325FD2B830025265A /* BooksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewModel.swift; sourceTree = "<group>"; };
+		690BB5E925FD2C320025265A /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		690BB5F125FD2C940025265A /* BooksSearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksSearchManager.swift; sourceTree = "<group>"; };
+		690BB5FA25FD33FC0025265A /* ClosureTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureTypes.swift; sourceTree = "<group>"; };
+		690BB60425FD43B40025265A /* BookCollectionCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionCellView.swift; sourceTree = "<group>"; };
+		690EBA1625FD461A00618154 /* BookCollectionCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionCellViewModel.swift; sourceTree = "<group>"; };
+		690EBA2125FD4F0300618154 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		690EBA2925FD508300618154 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		690EBA3A25FD872600618154 /* BookDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDatabase.swift; sourceTree = "<group>"; };
+		690EBA4525FE43A100618154 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		690EBA4A25FE46DD00618154 /* Mappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mappers.swift; sourceTree = "<group>"; };
+		690EBA4F25FE59CA00618154 /* BookDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
+		695731D525FE5E98002273E9 /* BookDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewModel.swift; sourceTree = "<group>"; };
+		695731DA25FE99AE002273E9 /* BooksFavoriteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksFavoriteManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +86,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				690EBA1D25FD4C1000618154 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		690BB59125FCF8B50025265A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		690BB59C25FCF8B50025265A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -83,7 +105,6 @@
 			children = (
 				690BB57D25FCF8B00025265A /* BookStore_TiagoZontag */,
 				690BB59725FCF8B50025265A /* BookStore_TiagoZontagTests */,
-				690BB5A225FCF8B50025265A /* BookStore_TiagoZontagUITests */,
 				690BB57C25FCF8B00025265A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,7 +114,6 @@
 			children = (
 				690BB57B25FCF8B00025265A /* BookStore_TiagoZontag.app */,
 				690BB59425FCF8B50025265A /* BookStore_TiagoZontagTests.xctest */,
-				690BB59F25FCF8B50025265A /* BookStore_TiagoZontagUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,14 +121,12 @@
 		690BB57D25FCF8B00025265A /* BookStore_TiagoZontag */ = {
 			isa = PBXGroup;
 			children = (
-				690BB57E25FCF8B00025265A /* AppDelegate.swift */,
-				690BB58025FCF8B00025265A /* SceneDelegate.swift */,
-				690BB58225FCF8B00025265A /* ViewController.swift */,
-				690BB58425FCF8B00025265A /* Main.storyboard */,
-				690BB58A25FCF8B40025265A /* Assets.xcassets */,
-				690BB58C25FCF8B40025265A /* LaunchScreen.storyboard */,
-				690BB58F25FCF8B40025265A /* Info.plist */,
-				690BB58725FCF8B00025265A /* BookStore_TiagoZontag.xcdatamodeld */,
+				690BB60225FD436B0025265A /* Views */,
+				690BB5F925FD33E80025265A /* Utils */,
+				690BB5B725FCFD6B0025265A /* Services */,
+				690BB5B825FCFD7A0025265A /* Domain */,
+				690BB5B625FCFD5B0025265A /* Scenes */,
+				690BB5B425FCFCDD0025265A /* Supporting Files */,
 			);
 			path = BookStore_TiagoZontag;
 			sourceTree = "<group>";
@@ -122,13 +140,129 @@
 			path = BookStore_TiagoZontagTests;
 			sourceTree = "<group>";
 		};
-		690BB5A225FCF8B50025265A /* BookStore_TiagoZontagUITests */ = {
+		690BB5B425FCFCDD0025265A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				690BB5A325FCF8B50025265A /* BookStore_TiagoZontagUITests.swift */,
-				690BB5A525FCF8B50025265A /* Info.plist */,
+				690BB57E25FCF8B00025265A /* AppDelegate.swift */,
+				690BB58025FCF8B00025265A /* SceneDelegate.swift */,
+				690BB58A25FCF8B40025265A /* Assets.xcassets */,
+				690BB58C25FCF8B40025265A /* LaunchScreen.storyboard */,
+				690BB58F25FCF8B40025265A /* Info.plist */,
 			);
-			path = BookStore_TiagoZontagUITests;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		690BB5B625FCFD5B0025265A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				690EBA2125FD4F0300618154 /* MainNavigationController.swift */,
+				690EBA2925FD508300618154 /* Router.swift */,
+				690BB5B925FCFD990025265A /* Books */,
+				690BB5BA25FCFDB20025265A /* Detail */,
+				690BB58425FCF8B00025265A /* Main.storyboard */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		690BB5B725FCFD6B0025265A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				690BB5BC25FCFDDC0025265A /* Database */,
+				690BB5BB25FCFDD30025265A /* Networking */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		690BB5B825FCFD7A0025265A /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				690BB5E825FD2C280025265A /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		690BB5B925FCFD990025265A /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				690BB58225FCF8B00025265A /* BooksViewController.swift */,
+				690BB5E325FD2B830025265A /* BooksViewModel.swift */,
+			);
+			path = Books;
+			sourceTree = "<group>";
+		};
+		690BB5BA25FCFDB20025265A /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				690EBA4F25FE59CA00618154 /* BookDetailViewController.swift */,
+				695731D525FE5E98002273E9 /* BookDetailViewModel.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		690BB5BB25FCFDD30025265A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				690BB5D225FD08E10025265A /* Response */,
+				690BB5C325FD02210025265A /* BooksAPI.swift */,
+				690BB5C825FD046D0025265A /* TargetRequestable.swift */,
+				690BB5CD25FD07890025265A /* BooksNetworkService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		690BB5BC25FCFDDC0025265A /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				690BB58725FCF8B00025265A /* BookStore_TiagoZontag.xcdatamodeld */,
+				690EBA3A25FD872600618154 /* BookDatabase.swift */,
+				690EBA4525FE43A100618154 /* PersistenceManager.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		690BB5D225FD08E10025265A /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				690BB5D325FD08EF0025265A /* PagedResultResponse.swift */,
+				690BB5DE25FD2A760025265A /* VolumeResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		690BB5E825FD2C280025265A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				690BB5E925FD2C320025265A /* Book.swift */,
+				690BB5F125FD2C940025265A /* BooksSearchManager.swift */,
+				695731DA25FE99AE002273E9 /* BooksFavoriteManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		690BB5F925FD33E80025265A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				690BB5FA25FD33FC0025265A /* ClosureTypes.swift */,
+				690EBA4A25FE46DD00618154 /* Mappers.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		690BB60225FD436B0025265A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				690BB60325FD43730025265A /* BookCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		690BB60325FD43730025265A /* BookCell */ = {
+			isa = PBXGroup;
+			children = (
+				690BB60425FD43B40025265A /* BookCollectionCellView.swift */,
+				690EBA1625FD461A00618154 /* BookCollectionCellViewModel.swift */,
+			);
+			path = BookCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +281,9 @@
 			dependencies = (
 			);
 			name = BookStore_TiagoZontag;
+			packageProductDependencies = (
+				690EBA1C25FD4C1000618154 /* Kingfisher */,
+			);
 			productName = BookStore_TiagoZontag;
 			productReference = 690BB57B25FCF8B00025265A /* BookStore_TiagoZontag.app */;
 			productType = "com.apple.product-type.application";
@@ -169,24 +306,6 @@
 			productReference = 690BB59425FCF8B50025265A /* BookStore_TiagoZontagTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		690BB59E25FCF8B50025265A /* BookStore_TiagoZontagUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 690BB5AE25FCF8B50025265A /* Build configuration list for PBXNativeTarget "BookStore_TiagoZontagUITests" */;
-			buildPhases = (
-				690BB59B25FCF8B50025265A /* Sources */,
-				690BB59C25FCF8B50025265A /* Frameworks */,
-				690BB59D25FCF8B50025265A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				690BB5A125FCF8B50025265A /* PBXTargetDependency */,
-			);
-			name = BookStore_TiagoZontagUITests;
-			productName = BookStore_TiagoZontagUITests;
-			productReference = 690BB59F25FCF8B50025265A /* BookStore_TiagoZontagUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -203,10 +322,6 @@
 						CreatedOnToolsVersion = 12.4;
 						TestTargetID = 690BB57A25FCF8B00025265A;
 					};
-					690BB59E25FCF8B50025265A = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 690BB57A25FCF8B00025265A;
-					};
 				};
 			};
 			buildConfigurationList = 690BB57625FCF8B00025265A /* Build configuration list for PBXProject "BookStore_TiagoZontag" */;
@@ -218,13 +333,15 @@
 				Base,
 			);
 			mainGroup = 690BB57225FCF8B00025265A;
+			packageReferences = (
+				690EBA1B25FD4C1000618154 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 690BB57C25FCF8B00025265A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				690BB57A25FCF8B00025265A /* BookStore_TiagoZontag */,
 				690BB59325FCF8B50025265A /* BookStore_TiagoZontagTests */,
-				690BB59E25FCF8B50025265A /* BookStore_TiagoZontagUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -247,13 +364,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		690BB59D25FCF8B50025265A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -261,10 +371,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				690EBA4B25FE46DD00618154 /* Mappers.swift in Sources */,
+				690BB5D425FD08EF0025265A /* PagedResultResponse.swift in Sources */,
+				690BB5C925FD046D0025265A /* TargetRequestable.swift in Sources */,
+				690EBA2225FD4F0300618154 /* MainNavigationController.swift in Sources */,
 				690BB58925FCF8B00025265A /* BookStore_TiagoZontag.xcdatamodeld in Sources */,
-				690BB58325FCF8B00025265A /* ViewController.swift in Sources */,
+				690BB5EA25FD2C320025265A /* Book.swift in Sources */,
+				690BB5E425FD2B830025265A /* BooksViewModel.swift in Sources */,
+				690BB58325FCF8B00025265A /* BooksViewController.swift in Sources */,
+				690BB5CE25FD07890025265A /* BooksNetworkService.swift in Sources */,
+				690EBA3B25FD872600618154 /* BookDatabase.swift in Sources */,
 				690BB57F25FCF8B00025265A /* AppDelegate.swift in Sources */,
+				690EBA5025FE59CA00618154 /* BookDetailViewController.swift in Sources */,
 				690BB58125FCF8B00025265A /* SceneDelegate.swift in Sources */,
+				695731DB25FE99AE002273E9 /* BooksFavoriteManager.swift in Sources */,
+				690EBA2A25FD508300618154 /* Router.swift in Sources */,
+				690BB5DF25FD2A760025265A /* VolumeResponse.swift in Sources */,
+				690BB5F225FD2C940025265A /* BooksSearchManager.swift in Sources */,
+				690EBA0F25FD455700618154 /* BookCollectionCellView.swift in Sources */,
+				690BB5FB25FD33FC0025265A /* ClosureTypes.swift in Sources */,
+				695731D625FE5E98002273E9 /* BookDetailViewModel.swift in Sources */,
+				690EBA4625FE43A100618154 /* PersistenceManager.swift in Sources */,
+				690BB5C425FD02210025265A /* BooksAPI.swift in Sources */,
+				690EBA1725FD461A00618154 /* BookCollectionCellViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,14 +405,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		690BB59B25FCF8B50025265A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				690BB5A425FCF8B50025265A /* BookStore_TiagoZontagUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -291,11 +412,6 @@
 			isa = PBXTargetDependency;
 			target = 690BB57A25FCF8B00025265A /* BookStore_TiagoZontag */;
 			targetProxy = 690BB59525FCF8B50025265A /* PBXContainerItemProxy */;
-		};
-		690BB5A125FCF8B50025265A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 690BB57A25FCF8B00025265A /* BookStore_TiagoZontag */;
-			targetProxy = 690BB5A025FCF8B50025265A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -517,46 +633,6 @@
 			};
 			name = Release;
 		};
-		690BB5AF25FCF8B50025265A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BSPWLUU5V5;
-				INFOPLIST_FILE = BookStore_TiagoZontagUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zontag.BookStore-TiagoZontagUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BookStore_TiagoZontag;
-			};
-			name = Debug;
-		};
-		690BB5B025FCF8B50025265A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BSPWLUU5V5;
-				INFOPLIST_FILE = BookStore_TiagoZontagUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zontag.BookStore-TiagoZontagUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BookStore_TiagoZontag;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -587,16 +663,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		690BB5AE25FCF8B50025265A /* Build configuration list for PBXNativeTarget "BookStore_TiagoZontagUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				690BB5AF25FCF8B50025265A /* Debug */,
-				690BB5B025FCF8B50025265A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		690EBA1B25FD4C1000618154 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		690EBA1C25FD4C1000618154 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 690EBA1B25FD4C1000618154 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		690BB58725FCF8B00025265A /* BookStore_TiagoZontag.xcdatamodeld */ = {
